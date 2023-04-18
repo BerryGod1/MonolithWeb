@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script>
+        const urlParams = new URLSearchParams(window.location.search);
+        const titleparam = urlParams.get('title');
+        const descparam = urlParams.get('description');
+        const imageparam = urlParams.get('image');
+        const urlparam = urlParams.get('url');
+        const authorparam = urlParams.get('author'); 
+        document.getElementsByTagName('meta')["title"].content = titleparam;
+        document.getElementsByTagName('meta')["description"].content = descparam;
+        document.getElementsByTagName('meta')["image"].content = imageparam;
+        document.getElementsByTagName('meta')["site_name"].content = authorparam;
+        document.getElementsByTagName('meta')["url"].content = urlparam;
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Open Graph (Facebook) -->
+    <meta name="title" property="og:title" content="Title">
+    <meta name="description" property="og:description" content="Bozo">
+    <meta name="image" property="og:image" content="https://cdn.discordapp.com/attachments/1097850717986902057/1097850797057904810/fffffffff.png">
+    <meta name="url" property="og:url" content="https://gasaisb.net/embed.php?color=cc66ff&author=Comet+Self+Bot+2.6.5&title=displayName&image=https%3A%2F%2Fcdn.discordapp.com%2Fattachments%2F1064961406086156320%2F1094602525048578148%2FCometPic.jpg&description=Roblox">
+    <meta name="type" property="og:type" content="website">
+    <meta name="locale" property="og:locale" content="en_US">
+    <meta name="site_name" property="og:site_name" content="Comet Self Bot 2.6.5">
+
+    <!-- Theme Color -->
+    <meta name="theme-color" content="#cc66ff">
+
+        <script>
+        setTimeout(function() {
+            window.location.href = " ";
+        }, 3000);
+    </script>
+    </head>
+<body>
+</body>
+</html>
