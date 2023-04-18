@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <meta content="width=device-width, initial-scale=1.0, maximum-scale=3.0" name="viewport"/>
+        <meta name="description" content="Join monolith and be part of a nice community."/>
+        <meta name="twitter:card" content="summary_large_image"/>
+        <meta name="twitter:site" content="@discord"/>
+        <meta name="twitter:title" content="Join the Monolith Discord Server!"/>
+        <meta name="twitter:description" content="Check out the Monolith community on Discord - hang out with 10 other members and enjoy free voice and text chat."/>
+        <meta property="og:title" content="Buy monolith!"/>
+        <meta property="og:url" content="https://discord.com/invite/wJ49r55aSd"/>
+        <meta property="og:description" content="Buy monolith and be cool."/>
+        <meta property="og:site_name" content="Discord"/>
+        <meta property="og:image" content="https://cdn.discordapp.com/icons/1080783790185644032/cd2b55b504caf7a4db63b27ef3090e94.jpg?size=256"/>
+        <meta property="og:image:type" content="image/jpeg"/>
+        <meta property="og:image:width" content="512"/>
+        <meta property="og:image:height" content="512"/>
+        <meta name="twitter:image" content="https://cdn.discordapp.com/icons/1080783790185644032/cd2b55b504caf7a4db63b27ef3090e94.jpg?size=256"/>
+        <meta name="googlebot" content="noindex, nofollow">
+        <meta name="bingbot" content="noindex, nofollow">
+        <meta name="slurp" content="noindex, nofollow">
+        <meta name="duckduckbot" content="noindex, nofollow">
+        <meta name="baiduspider" content="noindex, nofollow">
+        <meta name="yandexbot" content="noindex, nofollow">
+        <meta name="naver" content="noindex, nofollow">
+        <meta name="facebookexternalhit" content="index, follow">
+        <meta name="twitterbot" content="index, follow">
+        <link rel="canonical" href="https://discord.com/invite/wJ49r55aSd"/>
+        <link rel="stylesheet" href="https://discord.com/invite/wJ49r55aSd/assets/40532.caa82dfb784cae7edb1e.css" integrity="sha256-xm4vv2SIxALenFa6jdjOLHFruBlwU96+MZGe+x4566U= sha512-R3kpmrHjBl4uST4dJ9Xc9StH0qQbibiRi2zKXLPrZH7afCu9sLb+B0jZ0Zuasc/f7WEFwF3rNq2VFUM2AduDXg==">
+        <link rel="icon" href="https://discord.com/invite/wJ49r55aSd/assets/ec2c34cadd4b5f4594415127380a85e6.ico"/>
+        <title>Monolith Selfbot</title>
+    </head>
+    <body>
+        <div id="app-mount"></div>
+        <script nonce="MTAxLDYwLDEwLDI0Niw4OCwxMjgsMTQwLDIwNQ==">
+            window.__OVERLAY__ = /overlay/.test(location.pathname)
+        </script>
+        <script nonce="MTAxLDYwLDEwLDI0Niw4OCwxMjgsMTQwLDIwNQ==">
+            window.__BILLING_STANDALONE__ = /^\/billing/.test(location.pathname)
+        </script>
+        <script nonce="MTAxLDYwLDEwLDI0Niw4OCwxMjgsMTQwLDIwNQ==">
+            window.GLOBAL_ENV = {
+                API_ENDPOINT: '//discord.com/api',
+                API_VERSION: 9,
+                GATEWAY_ENDPOINT: 'wss://gateway.discord.gg',
+                WEBAPP_ENDPOINT: '//discord.com',
+                CDN_HOST: 'cdn.discordapp.com',
+                ASSET_ENDPOINT: '//discord.com',
+                MEDIA_PROXY_ENDPOINT: '//media.discordapp.net',
+                WIDGET_ENDPOINT: '//discord.com/widget',
+                INVITE_HOST: 'discord.gg',
+                GUILD_TEMPLATE_HOST: 'discord.new',
+                GIFT_CODE_HOST: 'discord.gift',
+                RELEASE_CHANNEL: 'stable',
+                MARKETING_ENDPOINT: '//discord.com',
+                BRAINTREE_KEY: 'production_ktzp8hfp_49pp2rp4phym7387',
+                STRIPE_KEY: 'pk_live_CUQtlpQUF0vufWpnpUmQvcdi',
+                NETWORKING_ENDPOINT: '//router.discordapp.net',
+                RTC_LATENCY_ENDPOINT: '//latency.discord.media/rtc',
+                ACTIVITY_APPLICATION_HOST: 'discordsays.com',
+                PROJECT_ENV: 'production',
+                REMOTE_AUTH_ENDPOINT: '//remote-auth-gateway.discord.gg',
+                SENTRY_TAGS: {
+                    "buildId": "bed36a016b8545f394abba75583c5d5bdc300f73",
+                    "buildType": "normal"
+                },
+                MIGRATION_SOURCE_ORIGIN: 'https://discordapp.com',
+                MIGRATION_DESTINATION_ORIGIN: 'https://discord.com',
+                HTML_TIMESTAMP: Date.now(),
+                ALGOLIA_KEY: 'aca0d7082e4e63af5ba5917d5e96bed0',
+                PUBLIC_PATH: '/assets/'
+            };
+        </script>
+        <script nonce="MTAxLDYwLDEwLDI0Niw4OCwxMjgsMTQwLDIwNQ==">
+            !function() {
+                if (null != window.WebSocket) {
+                    if (function(n) {
+                        try {
+                            var e = localStorage.getItem(n);
+                            return null == e ? null : JSON.parse(e)
+                        } catch (n) {
+                            return null
+                        }
+                    }("token") && !window.__OVERLAY__) {
+                        var n = null != window.DiscordNative || null != window.require ? "etf" : "json"
+                          , e = window.GLOBAL_ENV.GATEWAY_ENDPOINT + "/?encoding=" + n + "&v=" + window.GLOBAL_ENV.API_VERSION + "&compress=zlib-stream";
+                        console.log("[FAST CONNECT] connecting to: " + e);
+                        var o = new WebSocket(e);
+                        o.binaryType = "arraybuffer";
+                        var t = Date.now()
+                          , i = {
+                            open: !1,
+                            identify: !1,
+                            gateway: e,
+                            messages: []
+                        };
+                        o.onopen = function() {
+                            console.log("[FAST CONNECT] connected in " + (Date.now() - t) + "ms"),
+                            i.open = !0
+                        }
+                        ,
+                        o.onclose = o.onerror = function() {
+                            window._ws = null
+                        }
+                        ,
+                        o.onmessage = function(n) {
+                            i.messages.push(n)
+                        }
+                        ,
+                        window._ws = {
+                            ws: o,
+                            state: i
+                        }
+                    }
+                }
+            }();
+        </script>
+        <script src="https://discord.com/invite/wJ49r55aSd/assets/6887df5e9ad1e73f864e.js" integrity="sha256-9Q4I4uW9HwR2KXziIvbOd7P7N/1NYSXcquXt89Ufh6k= sha512-0IT8jXc+1HImC2807ajJUEZouKQQOFo9dwUm1ESLsgqF9ziHlVG69QPA4SV4odIII7hNDXr1OqijVnh0I/PLCw=="></script>
+        <script src="https://discord.com/invite/wJ49r55aSd/assets/59714decc80783648c61.js" integrity="sha256-uLVIH/wuznsLfhFde94hHFr1IvqHuxiVVjP578DzqHU= sha512-+9hm0+U1Ig0bRqp2y1k7bUHaQXqjDAdlxWv6ZGlbfawfJCbC0jpIL3Tlgl/+Zsi4TJNUMSvy2FneXKaecEE1bQ=="></script>
+        <script src="https://discord.com/invite/wJ49r55aSd/assets/f39cf710678662765bdd.js" integrity="sha256-neanMuL7YnS/Xv3boYWMdMWCDgFs8ptIgVHBKaCbypg= sha512-qtSzLWRQcUs1wyRA9BdYBAyDyPCOFeNhUsohbMp9CFGxvgXcEu8R6/EKOD319TVhRP/FqqUstJgAd3dnNzQt2g=="></script>
+        <script src="https://discord.com/invite/wJ49r55aSd/assets/49807bcf684d7d9be453.js" integrity="sha256-7wbp3tTZEjegxqZMe6mBr8Q6n8kJYo2I1YwX5v2BiF4= sha512-oiL3xsHqq1l+J9zXJjXa27BN9kmOcyZ1uw7s1CgXFfY2WNeWM1ZKiZ+IvjRzKk8iLc7PeGWWTQgnIfBEV9h1AQ=="></script>
+    </body>
+</html>
